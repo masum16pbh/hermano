@@ -104,7 +104,7 @@ export function Navbar() {
 
           <span className="flex flex-col leading-none">
             <span className="text-[1.05rem] font-black tracking-[-0.04em] text-emerald-950 dark:text-white">
-              Hermineo
+              Hermano
             </span>
             <span className="mt-1 text-[0.55rem] font-bold uppercase tracking-[0.24em] text-emerald-700/75 dark:text-emerald-300/75">
               Community in action

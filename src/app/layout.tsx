@@ -20,8 +20,8 @@ const themeScript = `(function(){try{var t=localStorage.getItem("hermineo-theme"
 
 export const metadata: Metadata = {
   title: {
-    default: "Hermineo | Community in action",
-    template: "%s | Hermineo",
+    default: "Hermano | Community in action",
+    template: "%s | Hermano",
   },
   description:
     "Discover, create, and join social service events that make a difference in your community.",
