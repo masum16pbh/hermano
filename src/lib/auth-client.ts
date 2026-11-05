@@ -1,7 +1,9 @@
 import { createAuthClient } from "better-auth/react"
-export const authClient = createAuthClient({
-    /** The base URL of the server (optional if you're using the same domain) */
-    baseURL: process.env.BETTER_AUTH_URL
-})
 
-export const { signIn, signUp, useSession,signOut ,updateUser} = createAuthClient()
+/**
+ * A single Better Auth client instance. Requests go to `/api/auth` on the
+ * current origin, so the same build works locally and in production.
+ */
+export const authClient = createAuthClient()
+
+export const { signIn, signUp, signOut, useSession, updateUser } = authClient
